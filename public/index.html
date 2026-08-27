@@ -8,9 +8,57 @@
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="Css/home-page.css" />
   </head>
   <body>
+    <div id="home-page-container">
+      <nav id="navbar-outer-container">
+        <div class="container-fluid" id="navbar-container">
+          <div id="brand-info">
+            <img src="Images/logo-Ecom.png" alt="Logo" />
+            <div id="brand-name">ShopEase</div>
+          </div>
+          <div id="menu-container">
+            <div class="menu">Home</div>
+            <div class="menu">Shop</div>
+            <div class="menu">Categories</div>
+            <div class="menu">About</div>
+            <div class="menu">Contact</div>
+          </div>
+          <div id="search-bar-container" style="margin-left: 10vh">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search products"
+                aria-label="Search"
+                style="width: 35vh"
+              />
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div id="user-login-container">
+            <div id="user-login">
+              <img
+                src="Images/login-icon.png"
+                id="user-login-icon"
+                alt="login"
+              />
+              <button class="btn btn-outline-secondary" id="login=btn">
+                Login
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="Js/home-page.js"></script>
   </body>

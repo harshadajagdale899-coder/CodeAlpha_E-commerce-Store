@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#home-page-container {
+  height: 110vh;
+  /* background-color: aqua; */
+}
+
+#navbar-outer-container {
+  height: 14vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar-container {
+  height: 14vh;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10vh;
+}
+
+#brand-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#brand-info img {
+  width: 8vh;
+  object-fit: cover;
+}
+
+#brand-name {
+  margin-left: -10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-left: 15vh;
+}
+
+.menu {
+  font-weight: 700;
+  border: 2px white solid;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+#search-bar-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#user-login-icon {
+  height: 5vh;
+  width: 5vh;
+  object-fit: cover;
+}
+
+.fa,
+.fa-brands,
+.fa-regular,
+.fa-solid,
+.fab,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+
+  font-style: normal;
+  font-variant: normal;
+}
