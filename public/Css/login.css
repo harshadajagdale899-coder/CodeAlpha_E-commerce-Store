@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#webpage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 218, 218);
+}
+
+#login-container {
+  background-color: white;
+  height: 95vh;
+  width: 60vh;
+  border-right: 1px rgb(221, 217, 217) solid;
+  border-radius: 10px;
+}
+
+#login-heading {
+  margin: 20px;
+}
+
+#login-form {
+  margin: 30px;
+}
+
+#login-btn {
+  margin-top: 20px;
+  width: 50vh;
+  background-color: rgb(5, 28, 59);
+  border: 1px rgb(5, 28, 59) solid;
+}
+
+#sign-in-container {
+  background-color: white;
+  height: 95vh;
+  width: 60vh;
+  border-radius: 10px;
+}
+
+#sign-heading {
+  margin: 10px;
+}
+
+#sign-in-form {
+  margin: 30px;
+}
+
+#sign-in-btn {
+  margin-top: 15px;
+  width: 50vh;
+  background-color: rgb(5, 28, 59);
+  border: 1px rgb(5, 28, 59) solid;
+}
