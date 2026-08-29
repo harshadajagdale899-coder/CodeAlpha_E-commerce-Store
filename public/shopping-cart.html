@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Css/shopping-cart.css" />
+  </head>
+  <body>
+    <div id="home-page-container">
+      <nav id="navbar-outer-container">
+        <div class="container-fluid" id="navbar-container">
+          <div id="brand-info">
+            <img src="Images/logo-Ecom.png" alt="Logo" />
+            <div id="brand-name">ShopEase</div>
+          </div>
+          <div id="menu-container">
+            <div class="menu">Home</div>
+            <div class="menu">Shop</div>
+            <div class="menu">Categories</div>
+            <div class="menu">About</div>
+            <div class="menu">Contact</div>
+          </div>
+          <div id="search-bar-container" style="margin-left: 10vh">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search products"
+                aria-label="Search"
+                style="width: 35vh"
+              />
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div id="user-login-container">
+            <div id="user-login">
+              <img
+                src="Images/login-icon.png"
+                id="user-login-icon"
+                alt="login"
+              />
+              <button class="btn btn-outline-secondary" id="login=btn">
+                Login
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--BOdy---->
+      <div id="page-heading">
+        <h4 style="color: violet; font-weight: 700">Your Shopping Cart</h4>
+        <p style="font-size: 13px; color: grey">
+          Review your items and proceed to checkout
+        </p>
+      </div>
+      <div id="shopping-cart-continer">
+        <div id="shopping-cart">
+          <table class="table" id="cart-table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>
+                  <div class="cart-product-img">
+                    <img src="Images/Headphone-img.png" alt="headphone" />
+                  </div>
+                </th>
+                <td>
+                  <div class="cart-product-details">
+                    <div class="cart-product-name">Wireless Headphone</div>
+                    <div class="cart-product-desc">
+                      High quality wireless headphones with noise cancelation
+                      and deep bias
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="cart-product-price">$59.99</div>
+                </td>
+                <td>
+                  <div class="cart-product-quatity">
+                    <div class="quatity">-</div>
+                    <div class="quatity">1</div>
+                    <div class="quatity">+</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="delete-item">
+                    <img src="Images/delete-icon.jpg" alt="delete" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <div class="cart-product-img">
+                    <img src="Images/watch-img.png" alt="watch" />
+                  </div>
+                </th>
+                <td>
+                  <div class="cart-product-details">
+                    <div class="cart-product-name">Smart Watch</div>
+                    <div class="cart-product-desc">
+                      Featured packed smartwatch with health tracking and
+                      notifications.
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="cart-product-price">$129.99</div>
+                </td>
+                <td>
+                  <div class="cart-product-quatity">
+                    <div class="quatity">-</div>
+                    <div class="quatity">1</div>
+                    <div class="quatity">+</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="delete-item">
+                    <img src="Images/delete-icon.jpg" alt="delete" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <div class="cart-product-img">
+                    <img src="Images/bag-img.png" alt="headphone" />
+                  </div>
+                </th>
+                <td>
+                  <div class="cart-product-details">
+                    <div class="cart-product-name">Wireless Headphone</div>
+                    <div class="cart-product-desc">
+                      High quality wireless headphones with noise cancelation
+                      and deep bias
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="cart-product-price">$59.99</div>
+                </td>
+                <td>
+                  <div class="cart-product-quatity">
+                    <div class="quatity">-</div>
+                    <div class="quatity">1</div>
+                    <div class="quatity">+</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="delete-item">
+                    <img src="Images/delete-icon.jpg" alt="delete" />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="btn btn-outline-secondary">Continue Shopping</button>
+          <div class="btn btn-outline-secondary" id="clear-cart-btn">
+            Clear Cart
+          </div>
+        </div>
+        <div id="order-summary-container">
+          <div id="order-summary">
+            <div class="order-heading">
+              <h5>Order Summary</h5>
+            </div>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Subtotal(2 items)</td>
+                  <td style="font-size: 15px; font-weight: 700">$239.97</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td style="font-size: 15px; font-weight: 700; color: green">
+                    Free
+                  </td>
+                </tr>
+                <tr style="border-bottom: 1px rgb(223, 221, 221) solid">
+                  <td>Tax(9%)</td>
+                  <td style="font-size: 15px; font-weight: 700">$21.60</td>
+                </tr>
+                <tr>
+                  <td style="font-size: 20px; font-weight: 700">Total</td>
+                  <td style="font-size: 20px; font-weight: 700; color: blue">
+                    $261.57
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn btn-primary" id="checkout-btn">
+              Proceed to checkout
+            </button>
+            <button class="btn btn-warning" id="paypal-btn">
+              <span style="color: rgb(5, 28, 59); font-weight: 700">Pay</span
+              ><span style="color: blue; font-weight: 700">Pal</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="footer-container">
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/truck-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Free Shoping</div>
+            <div style="font-size: 13px">On orders over $50</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/sheild-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Secure Payment</div>
+            <div style="font-size: 13px; width: 30vh">100% secure payments</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/arrow-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Easy Return</div>
+            <div style="font-size: 13px">30-day return policy</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/headphone-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">24/7 Support</div>
+            <div style="font-size: 13px">Dedicated support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

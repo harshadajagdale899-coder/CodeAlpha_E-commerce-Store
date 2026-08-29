@@ -4,7 +4,9 @@ body {
 }
 
 #home-page-container {
-  height: 170vh;
+  min-height: 170vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #navbar-outer-container {
@@ -172,7 +174,7 @@ body {
 #footer-container {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: auto;
   height: 18vh;
   /* background-color: aquamarine; */
   display: flex;
