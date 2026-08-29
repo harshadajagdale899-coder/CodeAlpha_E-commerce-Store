@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product detail</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Css/products-detail.css" />
+  </head>
+  <body>
+    <div id="home-page-container">
+      <nav id="navbar-outer-container">
+        <div class="container-fluid" id="navbar-container">
+          <div id="brand-info">
+            <img src="Images/logo-Ecom.png" alt="Logo" />
+            <div id="brand-name">ShopEase</div>
+          </div>
+          <div id="menu-container">
+            <div class="menu">Home</div>
+            <div class="menu">Shop</div>
+            <div class="menu">Categories</div>
+            <div class="menu">About</div>
+            <div class="menu">Contact</div>
+          </div>
+          <div id="search-bar-container" style="margin-left: 10vh">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search products"
+                aria-label="Search"
+                style="width: 35vh"
+              />
+              <button class="btn btn-outline-secondary" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div id="user-login-container">
+            <div id="user-login">
+              <img
+                src="Images/login-icon.png"
+                id="user-login-icon"
+                alt="login"
+              />
+              <button class="btn btn-outline-secondary" id="login=btn">
+                Login
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--BOdy---->
+      <div id="product-details-container">
+        <div id="product-img">
+          <img src="Images/bag-img.png" alt="" />
+        </div>
+        <div id="product-details">
+          <div class="product-name">Minimalist Bagpack</div>
+          <div class="product-price">$49.99</div>
+          <div class="product-rating">
+            <div id="rating-box">
+              <div class="rating"></div>
+              <div class="rating"></div>
+              <div class="rating"></div>
+              <div class="rating"></div>
+              <div class="rating"></div>
+            </div>
+          </div>
+          <div class="product-description">
+            A sleek and durable backpack perfect for everyday use. Spacious
+            compartment and modern design.
+          </div>
+          <div class="product-color">
+            <p>Color : Grey</p>
+            <div id="color-container">
+              <div class="color" id="color1"></div>
+              <div class="color" id="color2"></div>
+              <div class="color" id="color3"></div>
+            </div>
+          </div>
+          <div id="product-quatity">
+            <div class="quatity">-</div>
+            <div class="quatity">1</div>
+            <div class="quatity">+</div>
+          </div>
+          <button class="btn btn-outline-primary" id="cart-btn">
+            Add to Cart
+          </button>
+          <button class="btn btn-primary" id="buy-btn">Buy Now</button>
+        </div>
+      </div>
+      <div id="footer-container">
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/truck-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Free Shoping</div>
+            <div style="font-size: 13px">On orders over $50</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/sheild-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Secure Payment</div>
+            <div style="font-size: 13px; width: 30vh">100% secure payments</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/arrow-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">Easy Return</div>
+            <div style="font-size: 13px">30-day return policy</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-icon">
+            <img src="Images/headphone-icon.png" alt="icon" />
+          </div>
+          <div id="footer-text">
+            <div style="font-weight: 700">24/7 Support</div>
+            <div style="font-size: 13px">Dedicated support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
