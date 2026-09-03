@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#home-page-container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar-outer-container {
+  height: 14vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar-container {
+  height: 14vh;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10vh;
+}
+
+#brand-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#brand-info img {
+  width: 8vh;
+  object-fit: cover;
+}
+
+#brand-name {
+  margin-left: -10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-left: 15vh;
+}
+
+.menu {
+  font-weight: 700;
+  border: 2px white solid;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  border-bottom: 2px rgb(0, 0, 0) solid;
+}
+
+#search-bar-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#user-login-icon {
+  height: 5vh;
+  width: 5vh;
+  object-fit: cover;
+}
+
+.fa,
+.fa-brands,
+.fa-regular,
+.fa-solid,
+.fab,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+}
+
+#message-display-container {
+  width: 70vh;
+  margin-left: 85vh;
+}
+
+#successful-img img {
+  height: 30vh;
+  width: 50vh;
+  object-fit: cover;
+}
+
+#successful-img div {
+  text-align: center;
+  width: 75vh;
+}
+
+#success-message {
+  margin-left: -20vh;
+  text-align: center;
+}
+
+#order-id {
+  margin-top: 20px;
+  margin-left: 30px;
+  border: 1px rgb(174, 172, 172) solid;
+  width: 40vh;
+  height: 10vh;
+  padding: 15px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 17px;
+}
+#order-details-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  height: 15vh;
+  border: 1px rgb(193, 190, 190) solid;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.order-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 50vh;
+  border-right: 1px grey solid;
+  margin: 20px;
+}
+
+.order-icon {
+  margin-top: -12px;
+  font-size: 25px;
+}
+
+.order-info {
+  height: 10vh;
+}
+
+.value {
+  margin-top: -18px;
+  font-size: 15px;
+}
+
+#continue-shopping {
+  background-color: rgb(7, 7, 66);
+  border-color: rgb(7, 7, 66);
+  width: 40vh;
+  margin-top: 20px;
+  margin-left: 90vh;
+  display: block;
+}
+
+#my-orders {
+  width: 40vh;
+  margin-top: 20px;
+  margin-left: 90vh;
+  display: block;
+}
